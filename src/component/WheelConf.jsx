@@ -29,8 +29,9 @@ const configureWheel = (container) => {
   // wheel.borderColor = "#Ffdd00";
   wheel.image = "../../assets/center1.svg";
 
-  // wheel.overlayImage =
-  //   "https://raw.githubusercontent.com/Amitnale007/Image-Proccessing/main/no%20stand.png";
+
+  wheel.overlayImage =
+    "";
   return wheel;
   // wheel.overlayImage =
   //   "https://raw.githubusercontent.com/CrazyTim/spin-wheel/9d98bc1ed06f832bc1d5f3499477df7a9fcf7c7a/examples/themes/img/example-2-overlay.svg";
