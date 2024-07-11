@@ -17,17 +17,17 @@ const configureWheel = (container) => {
 
   const wheel = new Wheel(container, wheelProps);
   // wheel.radius = 0.75;
-  wheel.itemLabelFontSizeMax = 100;
+  wheel.itemLabelFontSizeMax = 80;
   wheel.rotationSpeedMax = 40000;
-  wheel.itemLabelRadius = 0.7;
-  wheel.itemBackgroundColors = ["#00ff00"];
+  wheel.itemLabelRadius = 0.68;
+  wheel.itemBackgroundColors = ["#43a510"];
   wheel.itemLabelRotation = 90;
   wheel.itemLabelAlign = "center";
   wheel.itemLabelColors = ["white"];
   // wheel.isInteractive = false;
   // wheel.borderWidth = 30;
   // wheel.borderColor = "#Ffdd00";
-  wheel.image = "../../assets/center1.svg";
+  // wheel.image = "../../assets/center1.svg";
 
 
   wheel.overlayImage =
